@@ -16,7 +16,7 @@ function heroSection() {
     <div>
       <header>
         <div>
-          <img src={risefinance} alt="Rise Finance"/>
+          <img src={risefinance} alt="Rise Finance" />
         </div>
         <ul>
           <a href="#" id="navbar-bnt"><li>Company</li></a>
@@ -39,19 +39,19 @@ function heroSection() {
       </div>
       <main>
         <aside>
-          <h1><span>Scale Fintech</span><br/> Safe And Secure</h1>
+          <h1><span>Scale Fintech</span><br /> Safe And Secure</h1>
           <p>Ship your fintech products to your customers with fast and reliable processes. Secure and highly customizable. Rise Finance is the best partner for you if you want to scale your finance products worldwide.</p>
           <button><div>consultation</div></button>
         </aside>
         <article>
-          <img src={card} alt="card-example"/>
+          <img src={card} alt="card-example" />
         </article>
       </main>
       <footer>
-        <img src={logo1} alt="logo"/>
-        <img src={logo2} alt="logo"/>
-        <img src={logo3} alt="logo"/>
-        <img src={logo4} alt="logo"/>
+        <img src={logo1} alt="logo" />
+        <img src={logo2} alt="logo" />
+        <img src={logo3} alt="logo" />
+        <img src={logo4} alt="logo" />
       </footer>
 
 

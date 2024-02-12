@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import HeroSection from "./sections/heroSection";
-import './styles/fonts.css'
+import './styles/fonts.css';
 
 
 

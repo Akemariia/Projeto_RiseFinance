@@ -1,149 +1,131 @@
-body{
-    background-color: rgba(17, 17, 57, 1);
-    color: white;
-    font-family: poppinsmedium;
-    width: 60%;
-    
-    margin: 0 auto;
-    padding: 15px;
+body {
+  background-color: rgba(17, 17, 57, 1);
+  color: white;
+  font-family: poppinsmedium;
+  width: 60%;
+
+  margin: 0 auto;
+  padding: 15px;
 }
 
-
-header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-#title{
-    flex-direction: column;
+#title {
+  flex-direction: column;
 }
 
-li{
-    display: inline-block;
-    margin: 20px;
+li {
+  display: inline-block;
+  margin: 20px;
 }
 
-
-#navbar-bnt{
-    color: white;
-    
+#navbar-bnt {
+  color: white;
 }
 
-h1{
-    font-size: 3.0rem;
-    font-family: poppinssemibold;
-    letter-spacing: -3.0px;
-    
-    
-
+h1 {
+  font-size: 3rem;
+  font-family: poppinssemibold;
+  letter-spacing: -3px;
 }
-h1 span{
-    background-image: linear-gradient(-45deg, #812DE2, #3A49F9);
-    background-clip: text;
-    -webkit-background-clip: text; 
-    -webkit-text-fill-color: transparent;
-    
+h1 span {
+  background-image: linear-gradient(-45deg, #812de2, #3a49f9);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-p{
-    margin-top: -2%;
-    font-family: poppinslight;
-    font-size: 1.2rem;
-    line-height: 130%;
-    letter-spacing: 4%;
+p {
+  margin-top: -2%;
+  font-family: poppinslight;
+  font-size: 1.2rem;
+  line-height: 130%;
+  letter-spacing: 4%;
 }
 
-main{
-    padding: 10% 0px 10% 0px;
-    margin: 0px 5% 0px 5%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    
-
+main {
+  padding: 10% 0px 10% 0px;
+  margin: 0px 5% 0px 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-main button{
-    text-transform: uppercase;
-    color: white;
-    border: none;
-    background-color : transparent;
+main button {
+  text-transform: uppercase;
+  color: white;
+  border: none;
+  background-color: transparent;
 }
 
 main button:hover {
-    cursor: pointer;
-    
+  cursor: pointer;
 }
 
-main div{
-    padding: 1rem 3rem;
-    border: 3px solid;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(45deg, #812DE2, #3A49F9);
-    width: 100px;
-    
-    
+main div {
+  padding: 1rem 3rem;
+  border: 3px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(45deg, #812de2, #3a49f9);
+  width: 100px;
 }
 
-main img{
-    width: 50vh;
+main img {
+  width: 50vh;
 }
 
-aside{
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 44vh;
-    width: 45vh;
-   
+aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 44vh;
+  width: 45vh;
 }
 
 Footer {
-    margin: 0px 11% 0px 5%;
-    display: flex;
-    justify-content: space-between;
-
+  display: flex;
+  margin: 0px 11% 0px 5%;
+  justify-content: space-between;
 }
 
 /*Estilo menu mobile*/
-.hamburguer-btn{
-    
-    margin-top: -38%;
-    margin-left: 105%;
-    
-    
+.hamburguer-btn {
+  display: none;
+  margin-top: -38%;
+  margin-left: 105%;
 }
-.hamburguer-btn  img{
-    width: 60px;
-}
-  
-.menu-mobile{
-    background-color: #1E1E6D;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 99999;
-    width: 0%;
-    overflow: hidden;
+.hamburguer-btn img {
+  width: 60px;
 }
 
-
-.menu-mobile h1{
-    font-size: 2rem;
-    padding: 20px;
-    margin-left: 80%;
+.menu-mobile {
+  display: none;
+  background-color: #1e1e6d;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 99999;
+  width: 0%;
+  overflow: hidden;
 }
 
-.menu-mobile ul{
-    text-align: left;
-    flex-direction: column;
-    
-    height: 100vh;
+.menu-mobile h1 {
+  font-size: 2rem;
+  padding: 20px;
+  margin-left: 80%;
 }
 
-.menu-mobile li{
-    padding: 0px 60px 0px 0px;
+.menu-mobile ul {
+  text-align: left;
+  flex-direction: column;
+
+  height: 100vh;
+}
+
+.menu-mobile li {
+  padding: 0px 60px 0px 0px;
 }
